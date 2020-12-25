@@ -1,0 +1,27 @@
+{
+  "name": "tretodos-backend",
+  "version": "1.0.0",
+  "description": "a schedular where you can share your schedule with someone",
+  "main": "/src/app.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "author": "Dammy Moses",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^5.10.15",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "react-calendar": "^3.2.1",
+    "shortid": "^2.2.16",
+    "slugify": "^1.4.6"
+  }
+}
